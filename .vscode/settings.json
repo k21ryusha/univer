@@ -62,5 +62,6 @@
   "clang-format.style": "Google",
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "C_Cpp.clang_format_style": "Google",
-  "clang-format.fallbackStyle": "Google"
+  "clang-format.fallbackStyle": "Google",
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

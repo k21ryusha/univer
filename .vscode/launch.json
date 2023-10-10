@@ -1,13 +1,41 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Cargo launch",
+      "cargo": {
+        "args": [
+          "build",
+          "--lib"
+        ]
+      },
+      "args": []
+    },
+    {
+      "name": "(lldb) Запустить",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "Введите имя программы, например: ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+
+    {},
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/kirillandropov/VSCode/Новая папка",
-      "program": "/Users/kirillandropov/VSCode/Новая папка/build/Debug/outDebug"
+      "cwd": "/Users/kirillandropov/VSCode/univer-1",
+      "program": "/Users/kirillandropov/VSCode/univer-1/build/Debug/outDebug"
     }
   ]
 }
