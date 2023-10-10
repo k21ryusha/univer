@@ -1,0 +1,8 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     "/Users/kirillandropov/VSCode/Новая папка/output/1"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003ED0, symSize: 0x90 }
+  - { offsetInCU: 0x2CA0, offset: 0x2CA0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003ED0, symSize: 0x90 }
+  - { offsetInCU: 0x2D00, offset: 0x2D00, size: 0x8, addend: 0x0, symName: __Z4sqrtB7v160006f, symObjAddr: 0x90, symBinAddr: 0x100003F60, symSize: 0x14 }
+...
