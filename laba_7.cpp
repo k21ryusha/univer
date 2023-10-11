@@ -3,8 +3,9 @@
 using namespace std;
 int main()
 {
-    float x1 = 0.0;
+    float x1;
     cout << "x1 = ";
+    cin >> x1;
     int y1;
     int y2;
     if (x1 < -1){
@@ -13,25 +14,25 @@ int main()
         cout << y1<<"\n";
     }
     else 
-    if (x1 >= -1){
+    if (x1 < 0){
         y1 = 0;
         cout << "y1 = ";
         cout << y1<<"\n";
     }
     else  
-    if (x1<0){
-        y1 = 0;
+    if (x1<1){
+        y1 = -1;
         cout << "y1 = ";
         cout << y1<<"\n";
     }
     else 
-    if (x1 >= 0){
-        y1 = -1;
+    if (x1 >= -1){
+        y1 = 0;
         cout << "y1 = ";
         cout << y1 <<"\n";
     } 
     else
-    if (x1 < 1){
+    if (x1 >=0){
         y1 = -1;
         cout << "y1 = ";
         cout << y1<<"\n";
